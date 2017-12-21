@@ -1,0 +1,167 @@
+<div class="wrapper">
+    <div class="banner">
+        <div class="img">
+            <!--背景图-->
+            <img src="../../static/image/banner01.jpg" alt="banner">
+        </div>
+        <!--公告部分S-->
+        <h4>
+            <a href="" class="content">公告：民航公安局关于使用护照乘坐国内航班有关问题的通知关于2017年外国人永久居留身份证作为有效证件购票乘机的通知</a>
+            <a class="more" href="">MORE>></a>
+        </h4>
+        <!--公告部分E-->
+        <!--表单部分S-->
+        <div class="query">
+            <ul class="aside">
+                <li class="first-li">
+                    <span class="tab-li1 tab-span">航班<br>预订</span>
+                </li>
+                <li>
+                    <span class="tab-li2 tab-span">机+酒</span>
+                </li>
+                <li>
+                    <span class="tab-li3 tab-span">服务</span>
+                </li>
+                <li>
+                    <span class="tab-li4 tab-span">订单<br>查询</span>
+                </li>
+            </ul>
+            <!--出发地、目的地、时间选择S-->
+            <form action="queryFlight.action" method="post">
+                <div id="select-city">
+                    <h5>
+                        热门城市<span>（可直接输入城市名称或城市拼音）</span>
+                        <span class="close"></span>
+                    </h5>
+                    <ul>
+                        <li>中国大陆城市</li>
+                        <li>港澳台及其他国家城市</li>
+                    </ul>
+                    <ul>
+                        <li>热门</li>
+                        <li>A-F</li>
+                        <li>G-J</li>
+                        <li>K-N</li>
+                        <li>P-W</li>
+                        <li>X-Z</li>
+                    </ul>
+                    <ul>
+                        <li>北京</li>
+                        <li>上海浦东</li>
+                        <li>成都</li>
+                        <li>长春</li>
+                        <li>沈阳</li>
+                        <li>长沙</li>
+                        <li>重庆</li>
+                        <li>大连</li>
+                        <li>西安</li>
+                        <li>贵阳</li>
+                        <li>广州</li>
+                        <li>南京</li>
+                        <li>西宁</li>
+                        <li>温州</li>
+                        <li>昆明</li>
+                        <li>拉萨</li>
+                        <li>深圳</li>
+                        <li>乌鲁木齐</li>
+                        <li>兰州</li>
+                        <li>银川</li>
+                        <li>杭州</li>
+                        <li>丽江</li>
+                        <li>宁波</li>
+                        <li>厦门</li>
+                        <li>天津</li>
+                        <li>三亚</li>
+                        <li>南昌</li>
+                        <li>济南</li>
+                        <li>海口</li>
+                        <li>哈尔滨</li>
+                    </ul>
+                </div>
+                <!--日历容器-->
+                <div id="select-date"></div>
+                <div class="select-stroke-type">
+                    <label>
+                        <input type="radio" checked="checked"> 单程
+                    </label>
+                </div>
+                <div class="text">
+                    <input type="text" placeholder="出发城市" name="leaveCity">
+                    <span class="change">
+                                <b>换</b>
+                            </span>
+                    <input type="text" placeholder="到达城市" name="arrivalCity">
+                </div>
+                <div class="select-date">
+                    <input type="text" placeholder="出发日期" name="leaveDate">
+                </div>
+                <div class="select-type">
+                    <div><span>1</span>成人(≥12岁)
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>
+                        <b class="positive"></b>
+                    </div>
+                    <div><span>0</span>儿童(2-11岁)
+                        <ul>
+                            <li>0</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                        </ul>
+                        <b class="positive"></b>
+                    </div>
+                </div>
+                <a class="submit submit-btn">立即查询</a>
+            </form>
+            <!--出发地、目的地、时间选择E-->
+        </div>
+        <!--表单部分S-->
+    </div>
+</div>
+<!--bannerE-->
+<!--主体部分S-->
+<article>
+    <div class="recommend">
+        <p>产品推荐<a>MORE>></a></p>
+        <ul class="event">
+            <li class="first">
+                <img src="../../static/image/1-1.jpg">
+                <div>
+                    <h3>机票+产品专区</h3>
+                    <p>一站式订购机票+动车票/购票享“专车”</p>
+                    <a class="button submit-btn">查看详情</a>
+                </div>
+            </li>
+            <li class="second">
+                <img src="../../static/image/1-2.jpg">
+                <div>
+                    <h3>机上附加增值产品</h3>
+                    <p>机上座位提前选</p>
+                    <a class="button submit-btn">查看详情</a>
+                </div>
+            </li>
+            <li class="three">
+                <img src="../../static/image/1-3.jpg">
+                <div>
+                    <h3>预付费尊享产品</h3>
+                    <p>尊享行——您的头等舱出行专家</p>
+                    <a class="button submit-btn">查看详情</a>
+                </div>
+            </li>
+            <li class="four">
+                <img src="../../static/image/1-4.jpg">
+                <div>
+                    <h3>中转服务产品</h3>
+                    <p>通程值机/中转酒店住宿/中转茶歇餐食</p>
+                    <a class="button submit-btn">查看详情</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</article>

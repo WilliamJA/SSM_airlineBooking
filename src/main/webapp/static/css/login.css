@@ -1,0 +1,97 @@
+.login-box {
+    height: 525px;
+    width: 100%;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url("../../static/image/login_bg.jpg") top center;
+}
+.login-form {
+    width: 1070px;
+    height: auto;
+    margin: 0 auto;
+    padding: 25px 10px 0 10px;
+}
+
+.login-content {
+    width: 365px;
+    padding: 0 29px;
+    background: #fff;
+}
+.login-content>h2 {
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 21px;
+    color: #d7000f;
+    line-height: 45px;
+    border-bottom: 3px solid #d7000f;
+}
+.message {
+    height: 45px;
+    margin: 0;
+    padding: 0;
+}
+.message>b {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 16px;
+    font-size: 12px;
+    background-color: #ff4754;
+}
+.message>span {
+    color: #ff8089;
+}
+.login-content form ul {
+    margin-top: 0;
+}
+.login-content form ul li {
+    margin-bottom: 12px;
+}
+.login-content form ul li input {
+    width: calc(100% - 2px);
+    width: -webkit-calc(100% - 2px);
+    width: -moz-calc(100% - 2px);
+    height: 43px;
+    line-height: 43px;
+}
+.selectCode {
+    height: 125px;
+    background: moccasin;
+}
+.mobileValidateCode>a {
+    float: right;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+}
+.login-btn a:nth-child(1){
+    height: 45px;
+    line-height: 45px;
+    width: 75px;
+    padding: 0 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.login-btn a:nth-child(2) {
+    color: #585858;
+    margin-left: 20px;
+}
+.login-btn a:nth-child(2):hover {
+    color: #d7000f;
+}
+.login-btn a:nth-child(3) {
+    color: #25aaff;
+}
+.login-btn a:nth-child(3):hover {
+    color: #0c7cc3;
+}
+.placeholder {
+    height: 85px;
+}

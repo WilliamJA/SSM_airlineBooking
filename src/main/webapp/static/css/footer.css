@@ -1,0 +1,72 @@
+footer {
+    border-top: #d6d6d6 solid 1px;
+    width: 100%;
+    height: 330px;
+    background-color: #f5f5f5;
+}
+footer .foot {
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+}
+footer .foot>.foot-list {
+    padding-top: 60px;
+    width: 100%;
+    height: -webkit-calc(100% - 110px);
+    height: -moz-calc(100% - 110px);
+    height: calc(100% - 110px);
+}
+footer .foot>.foot-list .style>h5,.style>ul>li {
+    padding-left: 20px;
+}
+.style>ul>li>a:hover {
+    color: #93000a;
+}
+footer .foot>.foot-list>li {
+    float: left;
+    height: 100%;
+    width: 215px;
+}
+footer .foot>.foot-list>li>h5{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: normal;
+    color: #343434;
+}
+.foot>.foot-list>li>ul>li,.foot-list>li>ul>li>a {
+    margin-top: 10px;
+    color: #767676;
+}
+footer .foot>.foot-list>li:last-child {
+    border-right: none;
+}
+footer .foot>.filing {
+    height: 50px;
+    width: 100%;
+}
+footer .foot>.filing>p {
+    color: #a3a3a3;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 12px;
+}
+.foot .weixin,.weibo {
+    width: 150px;
+    height: 200px;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+.foot .weixin>img,.weibo>img {
+    width: 150px;
+    height: 150px;
+}
+.foot .weixin>p,.weibo>p {
+    height: 22px;
+    line-height: 22px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #969696;
+}

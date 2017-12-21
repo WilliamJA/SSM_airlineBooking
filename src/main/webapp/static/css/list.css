@@ -1,0 +1,303 @@
+.list {
+    width: 100%;
+}
+.list-content {
+    width: 1070px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.list-content>ul:nth-child(1) {
+    color: #bababa;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.list-content>ul:nth-child(1)>li {
+    height: 36px;
+    width: 178px;
+    position: relative;
+    line-height: 36px;
+    float: left;
+    text-align: center;
+    color:#bababa;
+}
+.list-content>ul:nth-child(1)>li>p {
+    width: 154px;
+    background-color: #ededed;
+    position: absolute;
+    left: 10px;
+}
+.list-content>ul:nth-child(1)>li>p>b {
+    display: inline-block;
+    margin-right: 10px;
+    font: bold normal 16px "Impact Regular";
+    width: 25px;
+    text-align: center;
+    line-height: 24px;
+    color: #d7000f;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+.list-content .bg-head {
+    width: 10px;
+    background: url("../../static/image/main.png") no-repeat;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 100%;
+}
+.list-content .bg-foot {
+    width: 14px;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    height: 100%;
+    background: url("../../static/image/main.png") no-repeat top -38px left -16px;
+}
+.flight-title {
+    height: 45px;
+    margin: 25px 0 22px 0;
+    color: #333;
+}
+.f {
+    padding: 0 10px;
+    color: #bababa;
+}
+.flight-title>li {
+    float: left;
+    margin-right: 5px;
+    line-height: 45px;
+}
+.flight-title>li>span {
+    font-size: 30px;
+    color: #bababa;
+}
+.flight-title>li b {
+    font-weight: normal;
+}
+.flight-title>li> .city {
+    width: 210px;
+    font-size: 30px;
+}
+.flight-title>li>.date {
+    line-height: 22px;
+    padding-top: 12px;
+}
+.flight-title>li>.count {
+    line-height: 22px;
+    padding-top: 18px;
+    display: inline-block;
+}
+.result-title {
+    overflow: hidden;
+}
+.result-title>li {
+    width: 127px;
+    height: 42px;
+    color: #333;
+    float: left;
+    line-height: 42px;
+    background-color: #dbdbdb;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+.result-title>li:nth-child(1) {
+    width:428px;
+    font-size: 18px;
+    text-indent: 15px;
+    text-align: left;
+}
+.result-content {
+    margin-top: 10px;
+}
+.result-content>li {
+    margin-bottom: 10px;
+}
+.details {
+    overflow: hidden;
+}
+.details>li {
+    float: left;
+    width: 127px;
+    border: 1px solid #dbdbdb;
+    border-right: none;
+}
+.details>li:nth-child(1) {
+    width: 427px;
+}
+.details>li:nth-last-child(1) {
+    border-right: 1px solid #dbdbdb;
+}
+.details-content {
+    padding: 6px 0;
+}
+.route-info {
+    position: relative;
+    margin: 10px 0 2px 22px;
+    overflow: hidden;
+}
+.route-info>img {
+    float: left;
+    height: 20px;
+    vertical-align: middle;
+    border: 0;
+}
+.route-info span {
+    float: left;
+    margin-left: 8px;
+    line-height: 20px;
+    color: #a5a5a5;
+    font-size: 12px;
+}
+.route-start-end {
+    overflow: hidden;
+}
+.route-start {
+    margin: 0 16px 0 22px;
+    width: 141px;
+    float: left;
+}
+.route-start>p:first-child {
+    position: relative;
+    font: bold 18px Arial;
+    line-height: 34px;
+    color: #333;
+}
+.route-start>p:nth-child(2) {
+    padding: 3px 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333;
+}
+.route-start>p:nth-child(2)>span {
+    margin-left: 8px;
+}
+.route-start>p:nth-child(3) {
+    padding-bottom: 12px;
+    color: #333;
+    line-height: 16px;
+    font-size: 12px;
+}
+.route-to {
+    float: left;
+    text-align: center;
+}
+.route-to>p{
+    font-size: 12px;
+    color: #585858;
+}
+.route-to>i {
+    display: block;
+    height: 8px;
+    width: 65px;
+    background: no-repeat;
+    background-position: 0 -228px;
+    font-style: normal;
+    margin-top: 12px;
+    background-image: url("../../static/image/flight.png");
+}
+.route-end {
+    float: left;
+    margin: 0 16px 0 22px;
+    width: 141px;
+}
+.route-end>p:nth-child(1) {
+    position: relative;
+    font: bold 18px Arial;
+    line-height: 34px;
+    color: #333;
+}
+.route-end>p:nth-child(2) {
+    padding: 3px 0;
+    line-height: 16px;
+    color: #333;
+}
+.route-end>p:nth-child(2)>span {
+    margin-left: 8px;
+}
+.route-end>p:nth-child(3) {
+    padding-bottom: 12px;
+    color: #333;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.tb-td {
+    display: table-cell;
+    padding: 6px 0;
+    vertical-align: middle;
+    width: 127px;
+    height: 128px;
+    text-align: center;
+    cursor: pointer;
+}
+.ticket-wrap {
+    position: relative;
+    display: block;
+}
+.ticket-price {
+    line-height: 28px;
+    display: block;
+    color: #d7000f;
+    font-weight: bold;
+    font-size: 18px;
+}
+.ticket-price>i {
+    margin-right: 1px;
+    font: 14px arial,sans-serif;
+    vertical-align: 2px;
+}
+.data-detail-item {
+    position: relative;
+    margin-top: 1px;
+    padding: 20px 0;
+    background-color: #ededed;
+    line-height: 20px;
+    overflow: hidden;
+    display: none;
+}
+.li-divide {
+    height: 12px;
+    border-left: 1px solid #dbdbdb;
+    margin: 4px 9px;
+}
+.data-detail-item>ul:first-child {
+    float: left;
+    padding: 8px 0;
+}
+.data-detail-item>ul:first-child>li {
+    float: left;
+    color: #bababa;
+}
+.data-detail-item>ul:first-child>li:first-child {
+    margin: 0 52px 0 22px;
+    color: #333;
+}
+.data-detail-item>ul:nth-child(2) {
+    float: right;
+    margin-right: 160px;
+}
+.booking-btn {
+    position: absolute;
+    margin: auto 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 37px;
+    line-height: 37px;
+    background-color: #d7000f;
+    color: #fff;
+    padding: 0 30px;
+    border-radius: 3px;
+}
+.booking-btn:hover {
+    background-color: #ba000d;
+}
+.booking-btn:active {
+    background-color: #93000a;
+}
+.placeholder {
+    height: 35px;
+}
+
+

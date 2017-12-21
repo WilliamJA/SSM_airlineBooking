@@ -1,0 +1,114 @@
+#order-manage-box {
+    width: 1070px;
+    height: auto;
+    margin: 0 auto;
+}
+.order-manage {
+    width: 100%;
+    margin-top: 20px;
+}
+.order-manage>h3 {
+    margin-bottom: 20px;
+    height: 24px;
+    border-left: 4px solid #eb4444;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.search-part {
+    border: 1px solid #bdbdbd;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+.search-show>span {
+    display: inline-block;
+    width: 75px;
+    line-height: 45px;
+    text-align: right;
+    margin-right: 10px;
+    float: left;
+    font-size: 14px;
+}
+.search-show>input {
+    height: 43px;
+    line-height: 43px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    width: 234px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-indent: 10px;
+    float: left;
+    background: url("../../static/image/ico.png") no-repeat top -310px left 180px ;
+}
+.search-show>div {
+    width: 16px;
+    height: 1px;
+    background: #bdbdbd;
+    margin: 22px 9px 0;
+    float: left;
+}
+.search-btn {
+    float: right;
+    margin-right: 60px;
+    color: white;
+    padding: 0 30px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #d7000f;
+    cursor: pointer;
+    outline: none;
+}
+.search-btn:hover {
+    background-color: #ba000d;
+}
+.search-btn:active {
+    background-color: #93000a;
+}
+.cus-manaTable {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.cus-manaTable th {
+    height: 42px;
+    line-height: 42px;
+    background: #dbdbdb;
+    color: #585858;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: left;
+    display: table-cell;
+    vertical-align: inherit;
+}
+.cus-manaTable td {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px dashed #bdbdbd;
+    font-size: 14px
+}
+.cus-manaTable .link {
+    color:#25aaff;
+    text-decoration: underline;
+}
+.cus-manaTable .i-to {
+    display: inline-block;
+    margin: 0 7px;
+    font-style: normal;
+    width: 27px;
+    height: 4px;
+    vertical-align: 3px;
+    background-position: 0 -13px;
+    background-image: url("../../static/image/book.png");
+}
+.query-date1,.query-date2 {
+    position: absolute;
+}

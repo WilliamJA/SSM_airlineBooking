@@ -1,0 +1,55 @@
+.right-tabs {
+    height: 48px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.right-tabs>div:first-child {
+    height: 45px;
+    width: 130px;
+    text-align: center;
+    line-height: 45px;
+    border-bottom: 3px solid #d7000f;
+    font-weight: bold;
+    float: left;
+}
+.right-tabs>div:last-child {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dddee4;
+    border-radius: 4px;
+    float: right;
+    color: #333;
+    cursor: pointer;
+    margin-top: 6px;
+    padding: 0 10px;
+}
+.cus-manaTable {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.cus-manaTable th {
+    height: 42px;
+    line-height: 42px;
+    background: #dbdbdb;
+    color: #585858;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: left;
+}
+.cus-manaTable td {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    border: none;
+    margin-left: 0;
+}
+.cus-manaTable td>a {
+    color:#0c7cc3;
+    margin-right: 10px;
+}
+.cus-manaTable td>a:hover {
+    color:#1595e6;
+}

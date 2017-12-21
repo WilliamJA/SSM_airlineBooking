@@ -1,0 +1,44 @@
+#success-box {
+    width: 1070px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.success {
+    width: 380px;
+    height: 407px;
+    margin: 80px auto 0;
+}
+.success>div:nth-child(1) {
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+    background: url("../../static/image/ico.png") no-repeat top -500px left -20px;
+}
+.success>p {
+    margin-top: 5px;
+    font-size: 22px;
+    color: #84df53;
+    text-align: center;
+}
+.info {
+    margin-top: 25px;
+}
+.info>p {
+    color: #333;
+    text-align: center;
+}
+.success a {
+    display: block;
+    width: 126px;
+    border-radius: 3px;
+    height: 40px;
+    border: 1px solid #dbdbdb;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    color: #333;
+}
+.success a:hover {
+    background-color: #dbdbdb;
+}

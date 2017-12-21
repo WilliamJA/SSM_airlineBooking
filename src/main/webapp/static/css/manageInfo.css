@@ -1,0 +1,77 @@
+.update-success,.alert-success {
+    width: 478px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    z-index: 999;
+    margin-left: -239px;
+    margin-top: -127px;
+    display: none;
+}
+.update-success>span, .alert-success>span{
+    background: url("../../static/image/ico.png") no-repeat top -460px left -20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.dialog-title {
+    color: #84df53;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.dialog-title>div {
+    background: url("../../static/image/cicon.png") no-repeat;
+    margin: 0 auto 5px;
+    width: 41px;
+    height: 43px;
+    background-position: 0 -100px;
+}
+.dialog-text {
+    text-align: center;
+    height: 60px;
+    font-size: 12px;
+    color: #585858;
+}
+.btn-con,.alter-con {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 40px;
+    height: 37px;
+}
+.btn-con>a,.alter-con>a {
+    margin: 0 14px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    padding: 0 29px;
+    color: #585858;
+    background-color: white;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.btn-con>a:hover {
+    background-color: #dbdbdb;
+}
+.alter-con>a:hover {
+    background-color: #dbdbdb;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    background-color: #333;
+    width: 100%;
+    overflow: hidden;
+    z-index: 998;
+    display: none;
+}

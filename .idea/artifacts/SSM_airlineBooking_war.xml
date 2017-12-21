@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSM_airlineBooking:war">
+    <output-path>$PROJECT_DIR$/../SSM_airlineBooking/target</output-path>
+    <root id="archive" name="SSM_airlineBooking.war">
+      <element id="artifact" artifact-name="SSM_airlineBooking:war exploded" />
+    </root>
+  </artifact>
+</component>

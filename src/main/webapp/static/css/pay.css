@@ -1,0 +1,237 @@
+.pay-result {
+    padding: 35px 50px 15px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.book-res {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.right-rs {
+    display: inline-block;
+    color: #84df53;
+    padding-left: 52px;
+    background: url("../../static/image/ico.png") no-repeat left -20px top -500px;
+    font-size: 18px;
+}
+.book-res>p {
+    display: inline-block;
+    vertical-align: -2px;
+    color: #d7000f;
+    font-weight: bold;
+}
+.book-res>p>i {
+    margin-right: 1px;
+    font: 18px arial,sans-serif;
+    vertical-align: 2px;
+    font-weight: bold;
+}
+.book-res>p>span {
+    font-size: 24px;
+}
+.pay-result>ul {
+    padding: 20px 0 20px 50px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #585858;
+}
+.pay-result>ul>li {
+    font-size: 14px;
+    line-height: 25px;
+}
+.pay-result>ul>li>p {
+    display: inline-block;
+}
+.order-nums {
+    padding: 18px 0 20px;
+    font-size: 12px;
+}
+.route-item {
+    position: relative;
+    height: 74px;
+    margin-top: -1px;
+    background-color: #ededed;
+}
+.route-ride {
+    float: left;
+    margin-right: 10px;
+    padding-top: 25px;
+}
+.route-ride>span {
+    display: inline-block;
+    padding: 3px 5px 4px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    background: #ffad43;
+    margin: 0 20px;
+}
+.air-flight {
+    width: 120px;
+    float: left;
+    padding-top: 25px;
+}
+.air-flight>img {
+    margin-right: 3px;
+    vertical-align: -3px;
+}
+.leaveCity-arrival-City {
+    min-width: 278px;
+    padding-top: 25px;
+    float: left;
+}
+.leaveCity-arrival-City>span {
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    max-width: 112px;
+}
+.leaveCity-arrival-City>div {
+    float: left;
+}
+.leaveCity-arrival-City>div>i {
+    display: inline-block;
+    width: 45px;
+    height: 6px;
+    background-position: -129px -195px;
+    margin: 0 6px;
+    vertical-align: 4px;
+    background-image: url("../../static/image/flight.png");
+}
+.time-airport {
+    min-width: 300px;
+    margin-top: 18px;
+    line-height: 20px;
+    float: left;
+    color: #767676;
+}
+.time-airport>p {
+    font-size: 12px;
+}
+.time-airport>p>span {
+    margin-right: 10px;
+    line-height: 20px;
+    color: #767676;
+    font-size: 12px;
+}
+.guest-info {
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+}
+.order-info-table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+}
+.dw1 span,.info-tr>td>span {
+    margin-left: 20px;
+}
+.info-tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.info-tr>th {
+    font-weight: normal;
+    text-align: left;
+    color: #bababa;
+    height: 55px;
+}
+.info-tr>td {
+    height: 35px;
+    vertical-align: top;
+    color: #585858;
+    border: none;
+    font-size: 14px;
+}
+.order-info-table tr .dw1 {
+    width: 150px;
+}
+.order-info-table tr .dw2 {
+    width: 105px;
+}
+.order-info-table tr .dw3 {
+    width: 275px;
+}
+.order-info-table tr .dw4 {
+    width: 245px;
+}
+.order-info-table tr .dw5 {
+    width: 150px;
+}
+.user-contact {
+    border-top: 1px dashed #dbdbdb;
+}
+.c1 {
+    margin-left: 0;
+}
+.pay-bank {
+    margin: 12px 0;
+}
+.payment>ul {
+    height: 50px;
+    margin-right: -1px;
+    border-top: 1px solid #dbdbdb;
+}
+.payment>ul>li {
+    float: left;
+    width: 356px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: #767676;
+    background: #ededed;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+.payment>ul>li:first-child {
+    color: #fff;
+    background-color: #d7000f;
+}
+.payment>div {
+    border: 1px solid #dbdbdb;
+    padding: 30px 20px;
+    min-height: 120px;
+}
+.payment>div>ul>li {
+    float: left;
+    width: 238px;
+    height: 48px;
+    border: 1px solid #dbdbdb;
+    margin: 0 25px 20px 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.payment>div>ul>li>label {
+    display: block;
+    height: 42px;
+    margin: 4px 0 0 8px;
+}
+.payment>div>ul>li>label>input {
+    margin-right: 5px;
+    vertical-align: middle;
+    float: left;
+    margin-top: 15px;
+}
+.check-pay {
+    margin-top: 30px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.check-pay>a {
+    float: right;
+    height: 37px;
+    line-height: 37px;
+    font-family: microsoft yahei,simsun,sans-serif;
+    border-radius: 3px;
+    display: block;
+    background-color: #d7000f;
+    padding: 0 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.check-pay>a:hover {
+    background-color: #93000a;
+}

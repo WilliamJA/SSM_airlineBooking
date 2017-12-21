@@ -1,0 +1,371 @@
+/*-----------------------banner部分-------------------------*/
+.img {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.img>img {
+    vertical-align: middle;
+    margin-left: -280px;
+    position: absolute;
+    z-index: 20;
+}
+.banner {
+    height: 512px;
+    position: relative;
+}
+.query,h4 {
+    width: 490px;
+    height: 403px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 30;
+    top:60px;
+    left: 130px;
+}
+.banner>h4 {
+    position: relative;
+    top:10px;
+    width: 452px;
+    height: 40px;
+    line-height: 40px;
+    background: url("../../static/image/ico.png") no-repeat top -280px left -10px;
+    padding-left: 38px;
+    font-weight: normal;
+    background-color: rgba(255,255,255,0.7);
+}
+.banner>h4>.content {
+    width: 398px;
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    color: #000;
+}
+.banner>h4>.content:hover {
+    color: #d7000f;
+}
+.banner>h4>.more {
+    position: absolute;
+    display: inline-block;
+    color: #25aaff;
+    font-size: 12px;
+    z-index: 5;
+    width: 60px;
+    right: 0;
+}
+.banner>h4>.more:hover {
+    color: #0c7cc3;
+}
+.banner>.query>.aside {
+    width: 70px;
+    height: 100%;
+}
+.banner>.query>.aside>li {
+    border-bottom: 1px solid #fff;
+    background-color: #f2f2f2;
+    height: 100px;
+    font-size: 16px;
+    color: #585858;
+    cursor: pointer;
+}
+.banner>.query>.aside>.first-li {
+    background-color: #d7000f;
+    color: #fff;
+}
+.banner>.query>.aside>.first-li:hover {
+    background-color: #d7000f;
+}
+.banner>.query>.aside>li:hover {
+    background-color: #e2e2e2;
+}
+.banner>.query>.aside>li:nth-last-child(1) {
+    border-bottom: none;
+}
+.banner>.query>.aside>li>.tab-span {
+    text-align: center;
+    display: block;
+    padding-top: 33px;
+}
+
+.query>form {
+    position: absolute;
+    width: 370px;
+    height: 100%;
+    left: 95px;
+    top: 0;
+    color:#a3a3a3;
+}
+.query>form>.select-stroke-type {
+    margin-top: 25px;
+}
+.query>form>.text,.select-date,.select-type{
+    margin-top: 25px;
+    width: 100%;
+    height: 45px;
+}
+.query>form>.text>input:first-child {
+    background: url("../../static/image/ico.png") no-repeat top -358px left -5px;
+}
+.query>form>.text>input:last-child {
+    background: url("../../static/image/ico.png") no-repeat top -410px left -5px;
+}
+.query>form>.select-date>input {
+    background: url("../../static/image/ico.png") no-repeat top -310px left 118px ;
+}
+.query>form>.text>input,.select-date>input,.select-type>div {
+    border: 1px solid #dbdbdb;
+    height: 43px;
+    width: 164px;
+    float: left;
+    border-radius: 4px;
+    outline: none;
+    text-indent: 10px;
+    color: gray;
+}
+.select-type>div {
+    line-height: 43px;
+}
+.select-type .positive {
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+    border-color: #dbdbdb transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px;
+}
+.select-type .anit {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-color: transparent transparent #dbdbdb;
+    border-style: solid dashed dashed;
+    border-width: 4px;
+}
+.select-type>div>ul {
+    position: absolute;
+    display: none;
+    border: 1px solid #dbdbdb;
+    width: 163px;
+    background-color: #fff;
+}
+.select-type>div>ul>li {
+    border-bottom: 1px solid #dbdbdb;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+}
+.select-type>div>ul>li:hover {
+    background-color: #f7f7f7;
+}
+.select-type>div:nth-child(2) {
+    margin-left: 36px;
+}
+.query>form>.text>input:hover,.select-date>input:hover,.select-type>div:hover {
+    cursor: pointer;
+}
+.query>form>.text>input:focus,.select-date>input:focus,.select-type>div:focus {
+    border-color:#c4c4c4;
+}
+.select-type>input:nth-last-child(1) {
+    margin-left: 34px;
+}
+.query>form>.text>.change {
+    width: 28px;
+    height: 20px;
+    border-bottom: 1px solid #c5c5c5;
+    text-align: center;
+    margin: 0 3px;
+    float: left;
+    position: relative;
+}
+.query>form>.text>.change>b {
+    background-color: #c5c5c5;
+    width: 20px;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    font-weight: normal;
+    display: inline-block;
+    border-radius: 20px;
+    position: absolute;
+    left: 4px;
+    top: 11px;
+}
+.query>form .submit {
+    height: 45px;
+    width: 134px;
+    line-height: 45px;
+    font-family: microsoft yahei,simsun,sans-serif;
+    margin-top: 70px;
+    font-size: 18px;
+}
+#select-city {
+    width: 528px;
+    background-color: #fff;
+    height: auto;
+    box-sizing: content-box;
+    border: 1px solid #dbdbdb;
+    position: absolute;
+    z-index: 200;
+    top:114px;
+    display: none;
+}
+#select-city>h5 {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    color: #bababa;
+}
+#select-city>h5>span {
+    font-weight: normal;
+}
+#select-city>h5>.close {
+    width: 12px;
+    height: 12px;
+    background: url("../../static/image/ico.png") no-repeat top -460px left -20px;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 14px;
+}
+#select-city>ul:nth-child(2){
+    height: 38px;
+    background: red;
+    width: 100%;
+}
+#select-city>ul:nth-child(2)>li {
+    width: 50%;
+    float: left;
+    height: 100%;
+    cursor: pointer;
+    line-height: 38px;
+    text-align: center;
+    background-color: #d7000f;
+    color: #fff;
+}
+#select-city>ul:nth-child(2)>li:nth-child(2) {
+    background-color: #dbdbdb;
+    color: #767676;
+}
+#select-city>ul:nth-child(3) {
+    height: 28px;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    border-bottom: 1px solid silver;
+}
+#select-city>ul:nth-child(3)>li {
+    height: 23px;
+    width: 68px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 4px;
+    cursor: pointer;
+    color: #333;
+    line-height: 22px;
+}
+#select-city>ul:nth-child(3)>li:nth-child(1) {
+    color: #d7000f;
+    border-bottom: 2px solid #d7000f;
+}
+#select-city>ul:nth-child(3)>li:hover {
+    border-bottom: 2px solid #d7000f;
+}
+
+#select-city>ul:nth-child(4){
+    height: auto;   /*224*/
+    width: 508px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    padding-bottom: 10px;
+}
+#select-city>ul:nth-child(4)>li {
+    width: 126px;
+    height: 28px;
+    float: left;
+    color: #333;
+    line-height: 28px;
+    cursor: pointer;
+    text-indent: 5px;
+}
+#select-city>ul:nth-child(4)>li:hover {
+    background-color: #d7000f;
+    color: #fff;
+}
+#select-date {
+    z-index: 9999;
+    position: absolute;
+}
+/*----------------------------------------内容部分--------------------------------- */
+#content article {
+    width: 100%;
+    height: 500px;
+}
+article .recommend{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+}
+.recommend>p {
+    font-size: 18px;
+    background: url("../../images/icon.svg") no-repeat top 15px left 15px;
+    color:#a3a3a3;
+    height: 50px;
+    padding-left: 50px;
+    line-height: 50px;
+}
+.recommend>p>a{
+    display: inline-block;
+    font-size: 12px;
+    margin-left:895px;
+    cursor: pointer;
+}
+.recommend .event>li {
+    float: left;
+    margin-top: 20px;
+    width: 520px;
+    height: 180px;
+}
+.recommend .event>li>img {
+    width: 180px;
+    height: 180px;
+    float: left;
+}
+.event div {
+    float: right;
+    width: 320px;
+    height: 180px;
+    background: #f3f3f3;
+    padding-left: 20px;
+}
+.event div h3 {
+    font-size: 18px;
+    color: #4f4f4f;
+    padding: 30px 0 12px;
+}
+.event div p {
+    color:#6e6e6e;
+    height: 60px;
+    line-height: 1.5em;
+}
+.event .button {
+    width: 124px ;
+    height: 37px;
+    line-height: 37px;
+}
+.recommend>.event>.second,.four {
+    margin-left: 40px;
+}
+.recommend>.event>.three {
+    margin-top: 40px;
+}
+.recommend>.event>.four {
+    margin-top: 40px;
+}
+
